@@ -304,3 +304,27 @@ img.footer_mini_logo:hover {
     line-height: 1.3rem;
     height: 1.3rem
 }
+
+.footer-github {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    height: 1.3rem;
+}
+
+.footer-dribbble {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    height: 1.5rem;
+}
+
+.footer-pinterest {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    height: 1.3rem;
+}
+
+.footer-mail {
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+    height: 1.3rem;
+}
