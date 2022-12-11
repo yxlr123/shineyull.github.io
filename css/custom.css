@@ -134,7 +134,9 @@ svg.icon {
 
 /* 网站背景颜色 */
 #web_bg {
-  background: var(--anzhiyu-background);
+  background-size: 20rem;
+  background-image: url(/img/bg.svg) !important;
+  background-repeat: initial;
 }
 
 
