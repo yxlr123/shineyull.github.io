@@ -102,7 +102,7 @@ img.footer_mini_logo:hover {
     #footer {
         background: linear-gradient(180deg, var(--Jay-background) 0, var(--Jay-card-bg) 25%);
         margin-top: 0;
-        z-index: 999
+        z-index: 1
     }
 }
 
