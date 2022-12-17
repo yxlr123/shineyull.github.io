@@ -9,7 +9,7 @@ function categoriesBarActive(){
   //判断是否是首页
   if (urlinfo == '/'){
     if (document.querySelector('#category-bar')){
-      document.getElementById('Home').classList.add("select")
+      document.getElementById('主页').classList.add("select")
     }
   }else {
     // 验证是否是分类链接
