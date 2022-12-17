@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>GameUE_Slolo</title>
+      <title>Slolo 一款多人射击游戏</title>
       <link href="/2022/12/01/GameUE-Slolo/"/>
       <url>/2022/12/01/GameUE-Slolo/</url>
       
@@ -13,14 +13,14 @@
       
       <categories>
           
-          <category> opensource </category>
+          <category> 开源 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> GameUE_Slolo </tag>
+            <tag> 虚幻游戏开发 </tag>
             
         </tags>
       
@@ -29,7 +29,7 @@
     
     
     <entry>
-      <title>Design Patterns</title>
+      <title>设计模式</title>
       <link href="/2022/12/01/Design-Patterns/"/>
       <url>/2022/12/01/Design-Patterns/</url>
       
@@ -38,14 +38,14 @@
       
       <categories>
           
-          <category> technology </category>
+          <category> 技术 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Design Patterns </tag>
+            <tag> 设计模式 </tag>
             
         </tags>
       
@@ -54,7 +54,7 @@
     
     
     <entry>
-      <title>Game making from my perspective</title>
+      <title>我眼中的游戏制作</title>
       <link href="/2022/12/01/Game-making-from-my-perspective/"/>
       <url>/2022/12/01/Game-making-from-my-perspective/</url>
       
@@ -63,14 +63,14 @@
       
       <categories>
           
-          <category> life </category>
+          <category> 生活 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Game </tag>
+            <tag> 游戏开发 </tag>
             
         </tags>
       
@@ -79,7 +79,7 @@
     
     
     <entry>
-      <title>EasyRPC</title>
+      <title>实现一套RPC框架(EasyRPC)</title>
       <link href="/2022/12/01/EasyRPC/"/>
       <url>/2022/12/01/EasyRPC/</url>
       
@@ -88,7 +88,7 @@
       
       <categories>
           
-          <category> opensource </category>
+          <category> 开源 </category>
           
       </categories>
       
@@ -104,7 +104,7 @@
     
     
     <entry>
-      <title>EasyDB</title>
+      <title>Rust实现一款简易数据库(EasyDB)</title>
       <link href="/2022/12/01/EasyDB/"/>
       <url>/2022/12/01/EasyDB/</url>
       
@@ -113,7 +113,7 @@
       
       <categories>
           
-          <category> opensource </category>
+          <category> 开源 </category>
           
       </categories>
       
@@ -129,7 +129,7 @@
     
     
     <entry>
-      <title>EasyDocker</title>
+      <title>GO复刻一款Docker虚拟容器(EasyDocker)</title>
       <link href="/2022/12/01/EasyDocker/"/>
       <url>/2022/12/01/EasyDocker/</url>
       
@@ -138,7 +138,7 @@
       
       <categories>
           
-          <category> opensource </category>
+          <category> 开源 </category>
           
       </categories>
       
@@ -154,7 +154,7 @@
     
     
     <entry>
-      <title>EasyLua</title>
+      <title>复刻Lua脚本语言(EasyLua)</title>
       <link href="/2022/11/20/EasyLua/"/>
       <url>/2022/11/20/EasyLua/</url>
       
@@ -163,7 +163,7 @@
       
       <categories>
           
-          <category> opensource </category>
+          <category> 开源 </category>
           
       </categories>
       
@@ -179,7 +179,7 @@
     
     
     <entry>
-      <title>EasyEngine</title>
+      <title>自制简易游戏引擎(EasyEngine)</title>
       <link href="/2022/11/20/EasyEngine/"/>
       <url>/2022/11/20/EasyEngine/</url>
       
@@ -188,7 +188,7 @@
       
       <categories>
           
-          <category> opensource </category>
+          <category> 开源 </category>
           
       </categories>
       
