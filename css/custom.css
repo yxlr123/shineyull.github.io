@@ -616,3 +616,18 @@ a.banner-button {
       --w: calc(50% - 8px);
   }
 }
+
+/* 文章版权卡片 */
+#post .post-copyright {
+  border-radius: 20px
+}
+
+/* 文章打赏按钮 */
+.post-reward .reward-button {
+  border-radius: 15px
+}
+
+/* 文章上一篇下一篇按钮 */
+#pagination.pagination-post {
+  border-radius: 20px
+}
