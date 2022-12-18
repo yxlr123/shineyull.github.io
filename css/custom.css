@@ -179,7 +179,7 @@ svg.icon {
 @media screen and (max-width: 768px){
   #recent-posts > .recent-post-item >.recent-post-info {
     margin-top: -16px;
-    height: 113px;
+    height: 130px;
   }
 }
 
@@ -630,4 +630,25 @@ a.banner-button {
 /* 文章上一篇下一篇按钮 */
 #pagination.pagination-post {
   border-radius: 20px
+}
+
+/* 文章卡片的左上角分类小角标 */
+a.article-meta__categories {
+  position: absolute;
+  padding: 0px 6px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 5px;
+  margin-left: 15px;
+  font-size: .5rem;
+  font-weight: 700;
+  color: #000 !important;
+  top: 15px;
+  left: 0;
+  transition: all .3s;
+}
+
+/* 文章卡片的标签文本不换行显示，顺序显示 */
+#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {
+  content: unset !important;
+  white-space: unset !important;
 }
