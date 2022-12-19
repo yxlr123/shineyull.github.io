@@ -657,3 +657,7 @@ a.article-meta__categories {
 #aside-content .sticky_layout {
   top: 65px;
 }
+
+progress.card-progress {
+  width: 100%;
+}
