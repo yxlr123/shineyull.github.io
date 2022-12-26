@@ -658,6 +658,7 @@ a.article-meta__categories {
   top: 65px;
 }
 
+/* 书籍进度条样式 */
 progress.card-progress {
   width: 100%;
 }
