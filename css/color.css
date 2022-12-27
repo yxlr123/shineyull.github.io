@@ -123,6 +123,8 @@
     --Jay-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
     --Jay-card-border: #e3e8f7;
     --Jay-shadow-border: 0 8px 16px -4px #2c2d300c;
+
+    --mj-card-border: #e3e8f7;
   }
   
   [data-theme="dark"] {
@@ -188,4 +190,6 @@
     --Jay-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
     --Jay-card-border: #282829;
     --Jay-shadow-border: 0 8px 16px -4px #00000050;
+
+    --mj-card-border: #42444a;
   }
