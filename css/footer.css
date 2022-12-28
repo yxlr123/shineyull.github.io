@@ -240,7 +240,8 @@ img.footer_mini_logo:hover {
 
 #footer-banner {
     padding: 1rem;
-    color: var(--Jay-fontcolor);
+    color: #fff;
+    font-size: 1rem;
     margin-top: 1rem;
     display: flex;
     overflow: hidden;
@@ -272,7 +273,7 @@ img.footer_mini_logo:hover {
 
 #footer-banner .footer-banner-link {
     margin-right: 1rem;
-    color: var(--Jay-fontcolor);
+    color: #fff;
     font-size: 1rem;
     font-weight: 700;
     white-space: nowrap
