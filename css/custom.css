@@ -662,3 +662,9 @@ a.article-meta__categories {
 progress.card-progress {
   width: 100%;
 }
+
+/* 首页文章卡片的左上角分类角标的样式 */
+.article-meta__categories:hover {
+  background: rgba(35, 105, 255, 0.8);
+  color:#fff !important;
+}
