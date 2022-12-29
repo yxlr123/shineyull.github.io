@@ -636,6 +636,7 @@ a.banner-button {
 a.article-meta__categories {
   position: absolute;
   padding: 0px 6px;
+  backdrop-filter: saturate(180%) blur(20px);
   background: rgba(0,0,0,0.2);
   border-radius: 5px;
   margin-left: 15px;
