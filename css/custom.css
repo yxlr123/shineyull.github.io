@@ -668,3 +668,8 @@ progress.card-progress {
 .article-meta__categories:hover {
   background: rgba(35, 105, 255, 0.8);
 }
+
+/* 分类标题样式 */
+.category-in-bar-tips{
+  display: none;
+}
