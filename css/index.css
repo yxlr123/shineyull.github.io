@@ -2472,23 +2472,23 @@ figure.highlight pre .javascript .function {
   object-fit: cover;
   max-height: 900px;
 }
-.flexcard-flink-list {
+.flink-list {
   overflow: hidden;
 }
-.flexcard-flink-list .flink-list-card .wrapper img {
+.flink-list .flink-list-card .wrapper img {
   -webkit-transition: -webkit-transform 0.5s ease-out !important;
   -moz-transition: -moz-transform 0.5s ease-out !important;
   -o-transition: -o-transform 0.5s ease-out !important;
   -ms-transition: -ms-transform 0.5s ease-out !important;
   transition: transform 0.5s ease-out !important;
 }
-.flexcard-flink-list .flink-list-card:hover {
+.flink-list .flink-list-card:hover {
   border-color: var(--anzhiyu-main) !important;
   background-color: var(--anzhiyu-main) !important;
   -webkit-box-shadow: var(--anzhiyu-shadow-theme) !important;
   box-shadow: var(--anzhiyu-shadow-theme) !important;
 }
-.flexcard-flink-list > a {
+.flink-list > a {
   width: calc(100% / 5 - 0.5rem);
   height: 150px;
   position: relative;
@@ -2507,21 +2507,21 @@ figure.highlight pre .javascript .function {
   box-shadow: none;
   border: var(--style-border) !important;
 }
-.flexcard-flink-list > a:hover .info {
+.flink-list > a:hover .info {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   -o-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
   transform: translateY(-100%);
 }
-.flexcard-flink-list > a:hover .wrapper img {
+.flink-list > a:hover .wrapper img {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -o-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-.flexcard-flink-list > a:hover::before {
+.flink-list > a:hover::before {
   position: fixed;
   width: inherit;
   margin: auto;
@@ -2537,7 +2537,7 @@ figure.highlight pre .javascript .function {
   padding: 10px;
   background-color: rgba(73,177,245,0.8);
 }
-.flexcard-flink-list > a .cover {
+.flink-list > a .cover {
   width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-out;
   -moz-transition: -moz-transform 0.5s ease-out;
@@ -2545,21 +2545,21 @@ figure.highlight pre .javascript .function {
   -ms-transition: -ms-transform 0.5s ease-out;
   transition: transform 0.5s ease-out;
 }
-.flexcard-flink-list > a .wrapper {
+.flink-list > a .wrapper {
   position: relative;
 }
-.flexcard-flink-list > a .wrapper .fadeIn {
+.flink-list > a .wrapper .fadeIn {
   -webkit-animation: coverIn 0.8s ease-out forwards;
   -moz-animation: coverIn 0.8s ease-out forwards;
   -o-animation: coverIn 0.8s ease-out forwards;
   -ms-animation: coverIn 0.8s ease-out forwards;
   animation: coverIn 0.8s ease-out forwards;
 }
-.flexcard-flink-list > a .wrapper img {
+.flink-list > a .wrapper img {
   height: 150px;
   pointer-events: none;
 }
-.flexcard-flink-list > a .info {
+.flink-list > a .info {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -2595,7 +2595,7 @@ figure.highlight pre .javascript .function {
   -ms-transition: -ms-transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
   transition: transform 0.5s cubic-bezier(0.6, 0.2, 0.1, 1) 0s;
 }
-.flexcard-flink-list > a .info img {
+.flink-list > a .info img {
   position: relative;
   top: 45px;
   width: 80px;
@@ -2607,7 +2607,7 @@ figure.highlight pre .javascript .function {
   text-align: center;
   pointer-events: none;
 }
-.flexcard-flink-list > a .info span {
+.flink-list > a .info span {
   padding: 20px 10% 60px 10%;
   font-size: 16px;
   width: 100%;
@@ -2621,27 +2621,27 @@ figure.highlight pre .javascript .function {
   -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
-.flexcard-flink-list>a .info,
-.flexcard-flink-list>a .wrapper .cover {
+.flink-list>a .info,
+.flink-list>a .wrapper .cover {
   position: absolute;
   top: 0;
   left: 0;
 }
 @media screen and (max-width: 1024px) {
-  .flexcard-flink-list > a {
+  .flink-list > a {
     width: calc(33.33333% - 15px);
   }
 }
 @media screen and (max-width: 600px) {
-  .flexcard-flink-list > a {
+  .flink-list > a {
     width: calc(50% - 15px);
   }
 }
-[data-theme=dark] .flexcard-flink-list a .info,
-[data-theme=dark] .flexcard-flink-list a .info span {
+[data-theme=dark] .flink-list a .info,
+[data-theme=dark] .flink-list a .info span {
   background-color: rgba(0,0,0,0.6);
 }
-[data-theme=dark] .flexcard-flink-list > a:hover:before {
+[data-theme=dark] .flink-list > a:hover:before {
   background-color: rgba(18,18,18,0.8);
 }
 .justified-gallery > div > img,
