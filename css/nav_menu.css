@@ -174,7 +174,7 @@
   }
   #nav {
     padding: 0 calc((100% - 1420px) / 2);
-    backdrop-filter: saturate(180%) blur(20px);
+    /* backdrop-filter: saturate(180%) blur(20px); */
   }
   
   #nav a {
@@ -461,11 +461,167 @@
     display: none;
   }
 
+
+/***************************************** 导航栏显隐和字体颜色样式 *****************************************/
+/* 文章页顶部导航栏隐藏 */
+.post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav,
+.post .post-bg.nav-fixed:not(.nav-visible):not(.is-top-bar) #nav {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* 页面顶部导航栏隐藏 */
+.page .not-top-img.nav-fixed.nav-visible:not(.is-top-bar) #nav,
+.page .not-top-img:not(.is-top-bar) #nav {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* 文章页顶部导航栏字体颜色 */
+.post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #site-name,
+.post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #site-name,
+.post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #site-name,
+.post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .menus_items .menus_item .site-page.group,
+.post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .menus_items .menus_item .site-page.group,
+.post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .menus_items .menus_item .site-page.group,
+.post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .site-page.social-icon.search,
+.post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+.post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+.post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .totopbtn,
+.post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+.post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+.post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+.post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+.post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical {
+  color: #fff !important;
+  text-shadow: none;
+}
+
+/* 非home页面顶部导航栏隐藏 */
+.page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav,
+.page .not-home-page.nav-fixed:not(.nav-visible):not(.is-top-bar) #nav,
+.page .not-home-page:not(.is-top-bar):not(.nav-visible):not(.nav-fixed) #nav {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+/* 非home页面顶部导航栏显示 */
+.page .not-home-page.nav-fixed.is-top-bar:not(.nav-visible) #nav,
+.page .not-home-page.nav-fixed.is-top-bar.nav-visible #nav {
+  background: rgba(255,255,255,0.8) !important;
+  box-shadow: 0 5px 6px -5px rgb(133 133 133 / 60%) !important;
+}
+
+/* 非home页面顶部导航栏字体颜色 */
+.page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #site-name,
+.page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #site-name,
+.page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #site-name,
+.page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .menus_items .menus_item .site-page.group,
+.page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .menus_items .menus_item .site-page.group,
+.page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .menus_items .menus_item .site-page.group,
+.page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .site-page.social-icon.search,
+.page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+.page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+.page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .totopbtn,
+.page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+.page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+.page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+.page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+.page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical {
+  color: #fff !important;
+  text-shadow: none;
+}
+
 /* 手机端导航栏样式 */
 @media screen and (max-width: 768px){
-  #page-header #nav {
-      background: var(--anzhiyu-background)!important;
-      box-shadow: none!important;
-      padding: 0 10px;
+  /* 文章页顶部导航栏隐藏 */
+  .post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav,
+  .post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav, 
+  .post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0 10px;
+  }
+
+  /* 文章页顶部导航栏字体颜色 */
+  .post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #site-name,
+  .post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #site-name,
+  .post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #site-name,
+  .post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus #toggle-menu .site-page,
+  .post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus #toggle-menu .site-page,
+  .post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus #toggle-menu .site-page,
+  .post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .site-page.social-icon.search,
+  .post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+  .post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+  .post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .totopbtn,
+  .post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+  .post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+  .post .post-bg.nav-fixed.nav-visible:not(.is-top-bar) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+  .post .post-bg.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+  .post .post-bg:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical {
+    color: #fff !important;
+    text-shadow: none;
+  }
+
+  /* 文章页顶部导航栏显示 */
+  .post .post-bg.is-top-bar.nav-fixed #nav {
+    background: var(--anzhiyu-background)!important;
+    box-shadow: none!important;
+    padding: 0 10px;
+  }
+
+  /* 页面顶部导航栏隐藏 */
+  .page .not-top-img.nav-fixed.nav-visible:not(.is-top-bar) #nav,
+  .page .not-top-img.nav-fixed:not(.nav-visible):not(.is-top-bar) #nav,
+  .page .not-top-img:not(.is-top-bar):not(.nav-visible):not(.nav-fixed) #nav {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0 10px;
+  }
+
+  /* 页面顶部导航栏显示 */
+  .page .not-top-img.nav-fixed.is-top-bar:not(.nav-visible) #nav,
+  .page .not-top-img.nav-fixed.is-top-bar.nav-visible #nav {
+    background: var(--anzhiyu-background) !important;
+    box-shadow: none !important;
+    padding: 0 10px;
+  }
+
+  /* 非home页面顶部导航栏隐藏 */
+  .page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav,
+  .page .not-home-page.nav-fixed:not(.nav-visible):not(.is-top-bar) #nav,
+  .page .not-home-page:not(.is-top-bar):not(.nav-visible):not(.nav-fixed) #nav {
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0 10px;
+  }
+
+  /* 非home页面顶部导航栏显示 */
+  .page .not-home-page.nav-fixed.is-top-bar:not(.nav-visible) #nav,
+  .page .not-home-page.nav-fixed.is-top-bar.nav-visible #nav {
+    background: var(--anzhiyu-background) !important;
+    box-shadow: none !important;
+    padding: 0 10px;
+  }
+
+  /* 非home页面顶部导航栏字体颜色 */
+  .page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #site-name,
+  .page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #site-name,
+  .page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #site-name,
+  .page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus #toggle-menu .site-page,
+  .page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus #toggle-menu .site-page,
+  .page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus #toggle-menu .site-page,
+  .page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .site-page.social-icon.search,
+  .page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+  .page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .site-page.social-icon.search,
+  .page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #menus .nav-button .totopbtn,
+  .page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+  .page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #menus .nav-button .totopbtn,
+  .page .not-home-page.nav-fixed.nav-visible:not(.is-top-bar) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+  .page .not-home-page.nav-fixed:not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical,
+  .page .not-home-page:not(.nav-fixed):not(.is-top-bar):not(.nav-visible) #nav #blog_name .back-home-button .back-home-button-icon.fas.fa-grip-vertical {
+    color: #fff !important;
+    text-shadow: none;
   }
 }
+/***************************************** 导航栏显隐和字体颜色样式 *****************************************/
