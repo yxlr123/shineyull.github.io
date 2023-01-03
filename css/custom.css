@@ -710,3 +710,8 @@ progress.card-progress {
   border-radius: 20px;
 }
 /********** 分类条文字样式 **********/
+
+/* 最新评论中的头像样式 */
+#aside-content .aside-list > .aside-list-item .thumbnail {
+  border-radius: 5px;
+}
