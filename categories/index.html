@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
   const init = () => {
     twikoo.init(Object.assign({
       el: '#twikoo-wrap',
-      envId: 'https://twikoo-api-two-sigma.vercel.app',
+      envId: 'https://twikoo-api.shineyu.cn',
       region: 'ap-shanghai',
       onCommentLoaded: function () {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
@@ -207,7 +207,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://twikoo-api-two-sigma.vercel.app',
+      envId: 'https://twikoo-api.shineyu.cn',
       region: 'ap-shanghai',
       urls: [window.location.pathname],
       includeReply: false
@@ -257,7 +257,7 @@ document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/j
   const getComment = () => {
     const runTwikoo = () => {
       twikoo.getRecentComments({
-        envId: 'https://twikoo-api-two-sigma.vercel.app',
+        envId: 'https://twikoo-api.shineyu.cn',
         region: 'ap-shanghai',
         pageSize: 6,
         includeReply: true
